@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.producto:hover {
+    transform: scale(1.02);
+}
+
+.producto span {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.producto p {
+    font-size: 0.875rem;
+    color: #222020;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.producto hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.producto i {
+    margin-right: 10px;
+    color: #FF6347;
+}
+
+#productos-disponibles {
+    margin-bottom: 10px;
+}
+
+#prod {    
+    margin-bottom: 0px;
+}
+
+#parr {
+    padding-top: 0px;
+    margin-top: 5px;
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#iniciar-compra {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#iniciar-compra:hover {
+    background-color: #218838;
+}
+
+#iniciar-compra:active {
+    background-color: #1e7e34;
+    transform: scale(0.98);
+}
